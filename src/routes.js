@@ -14,5 +14,9 @@ export default [
   {
     path: '/table',
     component: resolve => require(['./pages/table'], resolve)
+  },
+   {
+    path: '/form',
+    component: resolve => require(['./pages/form'], resolve)
   }
 ]

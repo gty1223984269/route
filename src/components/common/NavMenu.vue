@@ -12,7 +12,7 @@
  export default{
         data(){
             return {
-                menuList:[{text:'a',to:'/question'},{text:'b',to:'/user'},{text:'c',to:'/table'}]
+                menuList:[{text:'a',to:'/question'},{text:'b',to:'/user'},{text:'c',to:'/table'},{text:'d',to:'/form'}]
             }
         }
     }
