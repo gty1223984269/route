@@ -13,10 +13,10 @@ export default [
   },
   {
     path: '/table',
-    component: resolve => require(['./pages/table'], resolve)
+    component: resolve => require(['./pages/table/table'], resolve)
   },
    {
     path: '/form',
-    component: resolve => require(['./pages/form'], resolve)
+    component: resolve => require(['./pages/form/form'], resolve)
   }
 ]
