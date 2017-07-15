@@ -17,16 +17,17 @@
 #app {
   display: flex;
   min-width: 800px;
-  background-color: #1A191F;
   color: #dbdbdb;
 }
 
 // 顶栏样式
 .top-bar {
   height: 60px;
+  background-color: black;
   .top-wrapper {
     flex: 1;
     margin-right: 64px;
+
   }
   .search-area {
     padding: 16px 10px;
